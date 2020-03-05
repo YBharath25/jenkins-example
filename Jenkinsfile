@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                echo "build"
-                }
+                
             }
         }
 
@@ -14,7 +14,7 @@ pipeline {
 
             steps {
                echo "testing"
-                }
+                
             }
         }
 
@@ -24,6 +24,6 @@ pipeline {
               echo "deploy"
                 }
             }
-        }
+        
     }
 }
